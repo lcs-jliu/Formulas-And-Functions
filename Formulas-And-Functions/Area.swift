@@ -40,10 +40,23 @@ func forSquareWith(sideLength s : Double) -> Double {
  
  */
 func forRectangleWith(length l : Double, width w : Double) -> Double {
-    
+    let result = l * w
+    return result
     // Complete this function
-    return 0.0
-    
-    func forParallelogramWith(base b :Double, height h : Double) {
+    return result
 }
+
+func forParallelgram(base b : Double, height h : Double) -> Double {
+        let result = b * h
+        return result
+}
+
+func forTriangleWith(base b : Double, height h : Double ) -> Double {
+    let result = b * h * 0.5
+    return result
+}
+
+func forCircleWith(radius r : Double) -> Double {
+    let result = Double.pi * r * r
+    return result
 }
