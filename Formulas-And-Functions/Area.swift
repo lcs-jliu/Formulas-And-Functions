@@ -21,6 +21,7 @@ import Foundation
  
  */
 func forSquareWith(sideLength s : Double) -> Double {
+//func    NAME     arg label  parameter name: Data type
     let result = pow(s, 2.0)
     return result
 }
@@ -42,4 +43,7 @@ func forRectangleWith(length l : Double, width w : Double) -> Double {
     
     // Complete this function
     return 0.0
+    
+    func forParallelogramWith(base b :Double, height h : Double) {
+}
 }
